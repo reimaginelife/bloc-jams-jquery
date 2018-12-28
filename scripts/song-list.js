@@ -10,7 +10,7 @@
           </button>
         </td>
         <td>${song.title}</td>
-        <td>${song.duration}</td>
+        <td>${Math.floor(song.duration/60)}:${Math.floor(song.duration%60)}</td>
       </tr>
       `);
 
